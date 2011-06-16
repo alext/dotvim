@@ -10,7 +10,7 @@ home = File.expand_path('~')
   puts `ln -svf #{File.expand_path file} #{target}`
 end
 
-#puts `git submodule update --init`
+puts `git submodule update --init`
 
 #puts `cd bundle/command-t; rvm use system; rake clobber; rake make`
 
