@@ -5,15 +5,21 @@ call pathogen#runtime_append_all_bundles()
 
 nnoremap <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 
-if has("gui_macvim")
+set background=dark
+
+if has("gui_running")
+  set ruler
+  set number
+  colorscheme moria
+  set guioptions-=T   " remove toolbar
+  set guioptions-=L   " remove scrollbar
+  if has("gui_gnome")
+    set guifont=Terminus\ 9
+  elsif has("gui_macvim")
     set fuoptions=maxvert,maxhorz " fullscreen options (MacVim only), resized window when changed to fullscreen
     set guifont=Monaco:h10 " use Monaco 10pt
-    set guioptions=aAce " remove scrollbars
-end
-
-set background=dark
-set ruler
-set number
+  endif
+endif
 
 map <C-H> <C-w>h
 map <C-J> <C-w>j
