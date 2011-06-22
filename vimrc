@@ -11,8 +11,7 @@ if has("gui_running")
   set ruler
   set number
   colorscheme moria
-  set guioptions-=T   " remove toolbar
-  set guioptions-=L   " remove scrollbar
+  set guioptions=aAce
   if has("gui_macvim")
     set fuoptions=maxvert,maxhorz " fullscreen options (MacVim only), resized window when changed to fullscreen
     set guifont=Monaco:h10 " use Monaco 10pt
