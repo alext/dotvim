@@ -35,6 +35,12 @@ set nobackup " do not keep backups after close
 set nowritebackup " do not keep a backup while working
 set noswapfile " don't keep swp files either
 
+" ---------------------------------------------------------------------------
+" File Types
+" ---------------------------------------------------------------------------
+
+filetype plugin indent on
+
 " ----------------------------------------------------------------------------
 " Text Formatting
 " ----------------------------------------------------------------------------
@@ -49,12 +55,6 @@ set expandtab
 "set list listchars=trail:\ ,tab:>.
 "highlight SpecialKey ctermfg=DarkGray ctermbg=Red
 
-" ---------------------------------------------------------------------------
-" File Types
-" ---------------------------------------------------------------------------
-
-filetype plugin indent on
-
 " Status line
 set laststatus=2
 set statusline=
@@ -63,6 +63,6 @@ set statusline+=%f\                           " filename
 set statusline+=%h%m%r%w                      " status flags
 set statusline+=\[%{strlen(&ft)?&ft:'none'}]  " file type
 set statusline+=%=                            " right align remainder
-set statusline+=0x%-8B                        " character value
+"set statusline+=0x%-8B                        " character value
 set statusline+=%-14(%l,%c%V%)                " line, character
 set statusline+=%<%P                          " file position
