@@ -5,6 +5,8 @@ call pathogen#runtime_append_all_bundles()
 
 nnoremap <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 
+nnoremap <leader>f :execute 'CommandTFlush'<CR>
+
 set background=dark
 
 if has("gui_running")
