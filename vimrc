@@ -45,6 +45,9 @@ set noswapfile " don't keep swp files either
 
 filetype plugin indent on
 
+" override default detection of .md files as modula2
+autocmd! filetypedetect BufNewFile,BufRead *.md setfiletype markdown
+
 " ----------------------------------------------------------------------------
 " Text Formatting
 " ----------------------------------------------------------------------------
