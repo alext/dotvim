@@ -7,6 +7,10 @@ nnoremap <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 nnoremap <leader>f :execute 'CommandTFlush'<CR>
 
+if has("syntax")
+  syntax on
+end
+
 set background=dark
 
 if has("gui_running")
