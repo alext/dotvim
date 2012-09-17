@@ -52,6 +52,9 @@ filetype plugin indent on
 " override default detection of .md files as modula2
 autocmd! filetypedetect BufNewFile,BufRead *.md setfiletype markdown
 
+" Always start on first line when editing git commit messages
+autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
 " ----------------------------------------------------------------------------
 " Text Formatting
 " ----------------------------------------------------------------------------
