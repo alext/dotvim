@@ -25,3 +25,6 @@
 [submodule "bundle/vim-markdown-preview"]
 	path = bundle/vim-markdown-preview
 	url = https://github.com/nelstrom/vim-markdown-preview.git
+[submodule "bundle/puppet"]
+	path = bundle/puppet
+	url = https://github.com/rodjek/vim-puppet.git
