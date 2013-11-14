@@ -4,6 +4,7 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 
 nnoremap <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
+nnoremap <leader>N :execute 'NERDTreeFind'<CR>
 
 nnoremap <leader>f :execute 'CommandTFlush'<CR>
 
