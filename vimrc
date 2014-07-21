@@ -22,6 +22,7 @@ if has("gui_running")
   if has("gui_macvim")
     set fuoptions=maxvert,maxhorz " fullscreen options (MacVim only), resized window when changed to fullscreen
     set guifont=Monaco:h10 " use Monaco 10pt
+    set noantialias
   elseif has("gui_gtk")
     set guifont=Terminus\ 9
     set lines=60 columns=180
