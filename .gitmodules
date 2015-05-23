@@ -31,6 +31,3 @@
 [submodule "bundle/go"]
 	path = bundle/go
 	url = https://github.com/vim-jp/go-vim
-[submodule "bundle/rabl"]
-	path = bundle/rabl
-	url = https://github.com/yaymukund/vim-rabl.git
