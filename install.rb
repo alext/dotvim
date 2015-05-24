@@ -10,5 +10,3 @@ home = File.expand_path('~')
 end
 
 puts `git submodule update --init`
-
-puts `cd bundle/command-t; rake clobber; rake make`
