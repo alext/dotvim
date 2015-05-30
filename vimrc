@@ -61,6 +61,7 @@ set smartindent " be smart about it
 set shiftwidth=2
 set tabstop=2
 set expandtab
+set listchars=eol:$,tab:>-
 
 " highlight trailing spaces and tabs
 highlight TrailWhitespace ctermbg=red guibg=red
