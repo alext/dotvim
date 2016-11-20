@@ -37,3 +37,6 @@
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = https://github.com/markcornick/vim-terraform.git
+[submodule "bundle/vim-present"]
+	path = bundle/vim-present
+	url = https://github.com/corylanou/vim-present
