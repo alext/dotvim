@@ -33,7 +33,7 @@
 	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
-	url = https://github.com/markcornick/vim-terraform.git
+	url = https://github.com/hashivim/vim-terraform.git
 [submodule "bundle/vim-present"]
 	path = bundle/vim-present
 	url = https://github.com/corylanou/vim-present
