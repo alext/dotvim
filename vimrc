@@ -33,6 +33,7 @@ map <C-K> <C-w>k
 map <C-L> <C-w>l
 
 let g:bufExplorerShowRelativePath=1
+let g:NERDDefaultAlign='left'
 
 set hidden
 " ----------------------------------------------------------------------------
