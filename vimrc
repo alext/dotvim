@@ -27,6 +27,10 @@ if has("gui_running")
   endif
 endif
 
+" Fix diff hilight colours to be red/green
+hi diffAdded   ctermfg=46  cterm=NONE guifg=#00FF00 gui=NONE
+hi diffRemoved ctermfg=196 cterm=NONE guifg=#FF0000 gui=NONE
+
 map <C-H> <C-w>h
 map <C-J> <C-w>j
 map <C-K> <C-w>k
