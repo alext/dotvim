@@ -23,7 +23,7 @@ if has("gui_running")
     set noantialias
   elseif has("gui_gtk")
     set guifont=Terminus\ 9
-    set lines=60 columns=180
+    set lines=70 columns=260
   endif
 endif
 
