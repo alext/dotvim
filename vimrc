@@ -92,3 +92,6 @@ set statusline+=%<%P                          " file position
 " tab completion
 set wildmenu
 set wildmode=longest,list
+
+" autocomplete options
+set completeopt-=preview
