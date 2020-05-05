@@ -3,7 +3,7 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = https://github.com/vim-scripts/bufexplorer.zip.git
+	url = https://github.com/jlanzarotta/bufexplorer
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
