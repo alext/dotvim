@@ -7,3 +7,4 @@ if executable("goimports")
 endif
 
 let g:go_rename_command="gopls"
+let g:go_highlight_string_spellcheck = 0
