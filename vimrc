@@ -62,7 +62,6 @@ autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
 " ----------------------------------------------------------------------------
 
 set autoindent " automatic indent new lines
-set smartindent " be smart about it
 set shiftwidth=2
 set tabstop=2
 set expandtab
