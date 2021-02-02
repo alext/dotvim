@@ -22,7 +22,7 @@ if has("gui_running")
     set guifont=Monaco:h10 " use Monaco 10pt
     set noantialias
   elseif has("gui_gtk")
-    set guifont=Terminus\ 9
+    set guifont=Terminus\ (TTF)\ 9
     set lines=70 columns=260
   endif
 endif
