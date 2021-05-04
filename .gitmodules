@@ -40,3 +40,6 @@
 [submodule "bundle/vim-jinja"]
 	path = bundle/vim-jinja
 	url = https://github.com/mitsuhiko/vim-jinja
+[submodule "bundle/vim-jsx-pretty"]
+	path = bundle/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
