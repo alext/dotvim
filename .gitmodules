@@ -36,7 +36,7 @@
 	url = https://github.com/Vimjas/vim-python-pep8-indent
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
-	url = https://github.com/jakar/vim-json
+	url = https://github.com/elzr/vim-json
 [submodule "bundle/vim-jinja"]
 	path = bundle/vim-jinja
 	url = https://github.com/mitsuhiko/vim-jinja
