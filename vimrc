@@ -66,6 +66,7 @@ set autoindent " automatic indent new lines
 set shiftwidth=2
 set tabstop=2
 set expandtab
+set scrolloff=5
 set listchars=eol:$,tab:>-
 
 " highlight trailing spaces and tabs
