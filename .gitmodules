@@ -55,3 +55,6 @@
 [submodule "bundle/vim-jinja"]
 	path = bundle/vim-jinja
 	url = https://github.com/lepture/vim-jinja
+[submodule "bundle/scarpet"]
+	path = bundle/scarpet
+	url = https://github.com/twh2898/vim-scarpet
