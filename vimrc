@@ -95,4 +95,5 @@ set wildmenu
 set wildmode=longest,list
 
 " autocomplete options
+set complete-=i    " don't search included files
 set completeopt-=preview
